@@ -51,7 +51,7 @@
         </p>
         </div>
         <div class="main-content-part-2 flex">
-          <img src="images/main-bg-and-img/lemon.webp" alt="content" />
+          <img src="images/main-bg-and-img/nachos.png" alt="content" />
         </div>
       </div>
     </header>
@@ -62,27 +62,27 @@
       <br><br>
         Ingredients:
         <br>
-        2 Tbsp. olive oil
+        4 boneless, skinless chicken breasts
         <br>
-        2 Tbsp. unsalted butter
+        2 Tbsp. taco seasoning
         <br>
-        4 garlic cloves, thinly sliced
+        2 Tbsp. chili powder
         <br>
-        1/4 tsp. red pepper flakes
+        1/4 cup olive oil
         <br>
-        1 lb. uncooked spaghetti
+        Kosher salt, to taste
         <br>
-        2 tsp. kosher salt
+        1 (8-oz.) can tomato sauce
         <br>
-        1/2 cup grated parmesan cheese, plus more for serving
+        2 cups hot water
         <br>
-        2 Tbsp. fresh lemon zest
+        Several dashes hot sauce
         <br>
-        1/4 cup fresh lemon juice
+        Good tortilla chips
         <br>
-        1/4 cup chopped fresh basil, plus more for serving
+        Cheddar jack cheese, freshly grated
         <br>
-        Freshly ground black pepper, for serving
+Optional: pico de gallo, sour cream, sliced black olives, sliced green onions, cilantro leaves, guacamole, etc.
         <br><br>
         </p>
 
@@ -90,20 +90,29 @@
       Instructions:
       <br>
       1.
-      Heat a large pot over medium heat; add the oil and butter. Allow the butter to foam, then add the garlic and red pepper flakes. Cook until fragrant, 1 minute.
+Sprinkle both sides of the chicken breasts with the taco seasoning and chili powder. Rub in the seasonings as much as you can.
       <br>
-      2.
-      Add the pasta, 6 cups of water, and salt to the pot and bring to a simmer. Reduce the heat to medium-low and continue simmering for 8 to 10 minutes, stirring frequently to prevent sticking, until the pasta is al dente.
+2
+Heat the oil in a heavy skillet over medium heat. Cook the chicken breasts on both sides until deep golden and totally done in the middle, about 4 minutes per side. Remove from the skillet and let rest for a few minutes.
       <br>
-      3.
-      Remove from the heat and stir in the parmesan, lemon zest, lemon juice, and basil. Serve topped with more parmesan, basil, and black pepper.
+3
+In the same skillet, whisk in the tomato sauce, hot water, and several dashes of hot sauce and bring to a gentle boil. Reduce the heat to low and keep warm. Taste and adjust the seasonings (you may need to add a little salt, depending on the taco seasoning you use).
+      <br>
+4
+Shred the chicken using two forks, then transfer the shredded chicken to the sauce. Toss to coat it in the sauce. If the sauce is too thick, add a little more hot water and allow to simmer for a few minutes.
+      <br>
+5
+To build the nachos, layer the chips, cheese, and shredded chicken on a heat-proof dish in several layers, ending with a small layer on top. Microwave the dish (or place it in a 350ºF oven if oven-proof) until the cheese is totally melted.
+      <br>
+6
+Serve as is or add whatever extras you'd like! Dive into it immediately.
       <br><br>
         </p>
    
         <p class="main-content-p">
         Nutrition:
         <br>
-Calories: 560cal | Carbohydrates: 20g | Protein: 3g | Fat: 20g | Saturated Fat: 10g | Cholesterol: 358mg | Sodium: 226mg | Potassium: 121mg | Sugar: 1g | Vitamin A: 830IU | Calcium: 49mg | Iron: 2mg
+Calories: 740cal | Carbohydrates: 20g | Protein: 10g | Fat: 20g | Saturated Fat: 10g | Cholesterol: 358mg | Sodium: 226mg | Potassium: 121mg | Sugar: 1g | Vitamin A: 830IU | Calcium: 49mg | Iron: 2mg
 <br><br>        
 </p>
 

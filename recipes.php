@@ -25,7 +25,7 @@
         <!-- navigation -->
         <ul class="nav-list">
         <li><a href="index.php" class="capital">Home</a></li>
-          <li><a href="recipes.php" class="capital">recipes</a></li>
+          <li><a href="Omelette.php" class="capital">recipes</a></li>
           <li><a href="#addRecipe" class="capital">add recipe</a></li>
           <li><a href="#tutorials" class="capital">tutorials</a></li>
         </ul>
@@ -41,50 +41,14 @@
           <button><a href="signup.php" class="btn-2 pointer">Sign up</a></button>
         </div>
       </nav>
-      <div class="main-content flex-jcse">
-        <div class="main-content-part-1">
-          <div class="h2-div">
-            <h2 class="capital">Taste More,</h2>
-            <h2 class="capital">Spend <span class="col-2">Less</span></h2>
-          </div>
-          <p class="main-content-p">
-            BudgetBites is a website/application designed to help college students or anyone under a budget cook affordable, nutritious meals while developing essential cooking skills. 
-            This is a digital recipe book with community-driven features, allowing users to contribute their own recipes, learn through interactive tutorials, and plan meals efficiently
-          </p>
-          <br><br>
-          <button><a href="recipes.php" class="main-btn pointer">View Recipes</a>
-          </button>
-        </div>
-        <div class="main-content-part-2 flex">
-          <img src="images/main-bg-and-img/food.png" alt="content" />
-        </div>
-      </div>
-    </header>
+     
+    
     <!-- hero section ends here -->
-    <hr />
-    <!-- recipe sharing section starts here -->
-    <section id="addRecipe" class="section-sharing flex-jcse">
-      <div class="section-1 flex">
-        <img
-          src="images/main-bg-and-img/post recipe.png"
-          alt="share your recipe"
-        />
-      </div>
-      <div class="section-2 flex">
-        <h2 class="capital">share your own <span class="col-2">recipes</span></h2>
-        <p>
-          Have some recipes of your own? Post and share your recipes with the community.
-        </p>
-        <!-- button -->
-        <button class="main-btn capital pointer">create new recipe</button>
-      </div>
-    </section>
-    <!-- recipe sharing section ends here -->
-    <hr />
-    <!-- trending recipe section starts here -->
+    
+    <!-- all recipe section starts here -->
     <section class="section-trend-recipe">
       <div class="flex-jcsb trending">
-        <h2 class="capital pointer">trending recipes</h2>
+        <h2 class="capital pointer">All recipes</h2>
         
       </div>
       <!-- card division -->
@@ -208,6 +172,47 @@
         <div class="div-2 flex-jcse">
         </div>
       </div>
+
+      <div class="flex-jcse card-div">
+      <!-- card div 4 -->
+      <div class="div-1 flex-jcsb">
+          <!-- card 4 -->
+          <div class="card pointer">
+            <div class="card-div-1">
+              <img
+                src="images/main-bg-and-img/casserole.png"
+                alt="Casserole"
+              />
+            </div>
+            <div class="card-div-part-2">
+              <div class="card-div-2 flex-jcse">
+                <h2 class="name capital">Broccoli Chicken Casserole</h2>
+                <button class="cal pointer capital">
+                  <i class="fa-solid fa-fire"></i> 620 cal
+                </button>
+              </div>
+              <p>
+              A nice comfort food
+                <a href="ChickenCasserole.php">read more</a>
+              </p>
+              <div class="card-div-3 flex">
+                <div class="card-div-part flex-jcsb">
+                  <div class="card-div-3-1 flex">
+                  </div>
+                  <div class="card-div-3-2">
+                    <span class="star-rating flex">
+                      <i class="fa-solid fa-star col-2"></i>
+                      <i class="fa-solid fa-star col-2"></i>
+                      <i class="fa-solid fa-star col-2"></i>
+                      <i class="fa-solid fa-star col-2"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
     </section>
     <hr />
     
