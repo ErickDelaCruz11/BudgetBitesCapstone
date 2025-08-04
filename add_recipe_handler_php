@@ -1,0 +1,50 @@
+<?php
+session_start();
+include 'config.php';
+
+// Check if user is logged in
+if (!isset($_SESSION['user_id'])) {
+    die("You must be logged in to add a recipe.");
+}
+
+// Get user ID from session
+$user_id = $_SESSION['user_id'];
+
+// Get form data
+$title = $_POST['title'];
+$description = $_POST['description'];
+$ingredients = $_POST['ingredients'];
+$steps = $_POST['steps'];
+
+// Handle image upload
+$image_path = null;
+if (isset($_FILES['image']) && $_FILES['image']['error'] == 0) {
+    $uploadDir = "uploads/";
+    if (!is_dir($uploadDir)) {
+        mkdir($uploadDir, 0755, true);
+    }
+
+    $filename = basename($_FILES['image']['name']);
+    $targetPath = $uploadDir . time() . "_" . $filename;
+
+    if (move_uploaded_file($_FILES['image']['tmp_name'], $targetPath)) {
+        $image_path = $targetPath;
+    }
+}
+
+// Insert into database
+$sql = "INSERT INTO recipes (user_id, title, description, ingredients, steps, image_path)
+        VALUES (?, ?, ?, ?, ?, ?)";
+$stmt = $conn->prepare($sql);
+$stmt->bind_param("isssss", $user_id, $title, $description, $ingredients, $steps, $image_path);
+
+if ($stmt->execute()) {
+    header("Location: index.php?message=Recipe added successfully!");
+    exit();
+} else {
+    echo "Error adding recipe: " . $stmt->error;
+}
+
+$stmt->close();
+$conn->close();
+?>
