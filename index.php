@@ -26,8 +26,7 @@
         <ul class="nav-list">
         <li><a href="index.php" class="capital">Home</a></li>
           <li><a href="recipes.php" class="capital">recipes</a></li>
-          <li><a href="#addRecipe" class="capital">add recipe</a></li>
-          <li><a href="#tutorials" class="capital">tutorials</a></li>
+          <li><a href="addRecipe.php" class="capital">Add Recipe</a></li>
         </ul>
         <!-- menu bar -->
         <div class="menu-bar">
@@ -76,7 +75,8 @@
           Have some recipes of your own? Post and share your recipes with the community.
         </p>
         <!-- button -->
-        <button class="main-btn capital pointer">create new recipe</button>
+        <button><a href="addRecipe.php" class="main-btn pointer">Create New Recipe</a>
+          </button>
       </div>
     </section>
     <!-- recipe sharing section ends here -->

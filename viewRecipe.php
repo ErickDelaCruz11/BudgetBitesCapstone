@@ -41,7 +41,6 @@ if (!$recipe) {
         <?php if (isset($_SESSION['user_id'])): ?>
           <li><a href="addRecipe.php" class="capital">Add Recipe</a></li>
         <?php endif; ?>
-        <li><a href="#tutorials" class="capital">Tutorials</a></li>
       </ul>
       <div class="menu-bar">
         <div class="menu-lines"></div>

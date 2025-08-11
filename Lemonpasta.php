@@ -25,9 +25,8 @@
         <!-- navigation -->
         <ul class="nav-list">
         <li><a href="index.php" class="capital">Home</a></li>
-          <li><a href="#recipe" class="capital">recipes</a></li>
-          <li><a href="#addRecipe" class="capital">add recipe</a></li>
-          <li><a href="#tutorials" class="capital">tutorials</a></li>
+          <li><a href="recipes.php" class="capital">recipes</a></li>
+          <li><a href="addRecipe.php" class="capital">Add Recipe</a></li>
         </ul>
         <!-- menu bar -->
         <div class="menu-bar">

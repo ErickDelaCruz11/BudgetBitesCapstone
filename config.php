@@ -2,7 +2,7 @@
 $host = "localhost";
 $dbname = "budgetbites";
 $username = "root";
-$password = "ICS311"; // ← added missing semicolon
+$password = "ICS311"; 
 
 // Create connection
 $conn = new mysqli($host, $username, $password, $dbname);

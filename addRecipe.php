@@ -34,9 +34,8 @@ if (!isset($_SESSION['user_id'])) {
       <!-- navigation -->
       <ul class="nav-list">
         <li><a href="index.php" class="capital">Home</a></li>
-        <li><a href="Omelette.php" class="capital">Recipes</a></li>
+        <li><a href="recipes.php" class="capital">recipes</a></li>
         <li><a href="addRecipe.php" class="capital">Add Recipe</a></li>
-        <li><a href="#tutorials" class="capital">Tutorials</a></li>
       </ul>
       <!-- menu bar -->
       <div class="menu-bar">
